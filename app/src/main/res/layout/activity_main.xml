@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/imcTXT"
+        android:text="IMC"
+        tools:visibility="visible"
+        style="@style/input" />
+
+    <EditText
+        android:id="@+id/pesoEDT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu Peso em kg(Ex: 65.8)"
+        android:inputType="numberDecimal"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/alturaEDT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Insira sua altura em m(Ex: 1.78)"
+        android:inputType="numberDecimal"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/calcularBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULAR"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+
+
+</LinearLayout>
